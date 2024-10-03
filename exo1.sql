@@ -12,4 +12,7 @@ select nom_campagne from campagnes order by budget,
 select nom_campagne from campagnes order by debut_campagne
 limit 5, 
 
-select count (*) from campagnes
+select count (*) from campagnes,
+
+select avg (age) from clients,
+
